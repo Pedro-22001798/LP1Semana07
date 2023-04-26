@@ -19,7 +19,7 @@
             sphere3.Throw();
 
             Console.WriteLine($"Sphere2 was thrown {sphere2.GetTimesThrown()} times and Sphere3 was thrown {sphere3.GetTimesThrown()} times");
-            
+
         }
     }
 }

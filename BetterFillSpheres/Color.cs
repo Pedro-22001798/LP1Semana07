@@ -79,5 +79,19 @@ namespace BetterFillSpheres
                 return (byte)grey;
             }
         }
+
+        public string Name
+        {
+            get
+            {
+                return (Red,Blue,Green) switch
+                {
+                    {Red:255,Blue:0,Green:0} => "Red 100%",
+                    {Red:0,Blue:255,Green:0} => "Blue 100%",
+                    {Red:0,Blue:0,Green:255} => "Green 100%",
+                    _ => "Mixed"
+                };
+            }
+        }
     }
 }

@@ -9,18 +9,18 @@ namespace FillSpheres
 
         public Color(byte newRed, byte newGreen, byte newBlue, byte newAlpha)
         {
-            this.red = newRed;
-            this.green = newGreen;
-            this.blue = newBlue;
-            this.alpha = newAlpha;
+            SetRed(newRed);
+            SetGreen(newGreen);
+            SetBlue(newBlue);
+            SetAlpha(newAlpha);
         }
 
         public Color(byte newRed, byte newGreen, byte newBlue)
         {
-            this.red = newRed;
-            this.green = newGreen;
-            this.blue = newBlue;
-            this.alpha = 255;
+            SetRed(newRed);
+            SetGreen(newGreen);
+            SetBlue(newBlue);
+            SetAlpha(255);
         }
 
         public byte GetRed() => red;

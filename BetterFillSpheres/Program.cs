@@ -1,4 +1,4 @@
-﻿namespace FillSpheres
+﻿namespace BetterFillSpheres
 {
     class Program 
     {         

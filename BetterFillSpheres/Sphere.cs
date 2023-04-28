@@ -39,6 +39,12 @@ namespace BetterFillSpheres
             }
         }
 
-        public int GetTimesThrown() => numThrow;
+        public int TimesThrown
+        {
+            get
+            {
+                return numThrow;
+            }
+        }
     }
 }

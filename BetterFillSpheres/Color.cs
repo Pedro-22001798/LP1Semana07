@@ -9,18 +9,18 @@ namespace BetterFillSpheres
 
         public Color(byte newRed, byte newGreen, byte newBlue, byte newAlpha)
         {
-            this.red = newRed;
-            this.green = newGreen;
-            this.blue = newBlue;
-            this.alpha = newAlpha;
+            Red = newRed;
+            Green = newGreen;
+            Blue = newBlue;
+            Alpha = newAlpha;
         }
 
         public Color(byte newRed, byte newGreen, byte newBlue)
         {
-            this.red = newRed;
-            this.green = newGreen;
-            this.blue = newBlue;
-            this.alpha = 255;
+            Red = newRed;
+            Green = newGreen;
+            Blue = newBlue;
+            Alpha = 255;
         }
 
         public byte Red

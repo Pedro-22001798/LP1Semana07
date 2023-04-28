@@ -23,35 +23,61 @@ namespace BetterFillSpheres
             this.alpha = 255;
         }
 
-        public byte GetRed() => red;
-        public byte GetGreen() => green;
-        public byte GetBlue() => blue;
-        public byte GetAlpha() => alpha;
-
-        public void SetRed(byte newRed)
+        public byte Red
         {
-            red = newRed;
+            get
+            {
+                return red;
+            }
+            set
+            {
+                red = value;
+            }
         }
 
-        public void SetGreen(byte newGreen)
+        public byte Green
         {
-            green = newGreen;
+            get
+            {
+                return green;
+            }
+            set
+            {
+                green = value;
+            }            
         }
 
-        public void SetBlue(byte newBlue)
+        public byte Blue
         {
-            blue = newBlue;
+            get
+            {
+                return blue;
+            }
+            set
+            {
+                blue = value;
+            }            
         }
 
-        public void SetAlpha(byte newAlpha)
+        public byte Alpha
         {
-            alpha = newAlpha;
+            get
+            {
+                return alpha;
+            }
+            set
+            {
+                alpha = value;
+            }            
         }
 
-        public byte GetGrey()
+        public byte Grey
         {
-            int grey = (red + green + blue) / 3;
-            return (byte)grey;
+            get
+            {
+                int grey = (red + green + blue) / 3;
+                return (byte)grey;
+            }
         }
     }
 }

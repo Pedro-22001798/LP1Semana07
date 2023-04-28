@@ -43,7 +43,7 @@ namespace PlayerStats
             {
                 if(playedGames > 0)
                 {
-                    float winRate = wonGames / playedGames;
+                    float winRate = (float) wonGames / (float) playedGames;
                     return winRate;
                 }
                 else
